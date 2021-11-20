@@ -23,11 +23,11 @@ class IndexLocator():
 
     # SIGN UP BY FACEBOOK
 
-    SIGN_FB = (By.XPATH, '//*[@id="js--registration-form"]/div[1]/div/button[1]')
+    SIGN_IN_FB = (By.XPATH, '//*[@id="js--registration-form"]/div[1]/div/button[1]')
 
     # SIGN UP GOOGLE
 
-    SIGN_GOOGLE = (By.XPATH, '//*[@id="js--registration-form"]/div[1]/div/button[2]')
+    SIGN_IN_GOOGLE = (By.XPATH, '//*[@id="js--registration-form"]/div[1]/div/button[2]')
 
     # FIRST NAME
 
