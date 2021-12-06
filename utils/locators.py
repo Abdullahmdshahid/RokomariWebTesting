@@ -13,6 +13,14 @@ class IndexLocator():
 
     GOOGLE_BUTTON = (By.XPATH, '//*[@id="js--login-form"]/div[1]/div/button[2]')
 
+    # USER NAME
+
+    USER_NAME = (By.XPATH, '//input[@id="j_username"]')
+
+    # LOGIN PASSWORD
+
+    LOGIN_PASSWORD = (By.XPATH, '//input[@id="j_password"]')
+
     # LOGIN BUTTON
 
     LOGIN = (By.XPATH, '//*[@id="loginForm"]/button')
@@ -41,9 +49,9 @@ class IndexLocator():
 
     PHONE = (By.ID, "js-phone")
 
-    # PASSWORD
+    # CREATE PASSWORD
 
-    PASSWORD = (By.ID, "pwd")
+    CREATE_PASSWORD = (By.ID, "pwd")
 
     PROFILE = (By.XPATH, '//span[@class="user-name"]')
     ACCOUNT = (By.XPATH, '//a[text()="My Account"]')
